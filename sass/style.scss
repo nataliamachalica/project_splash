@@ -13,7 +13,7 @@ $second-color: #f1f2f6;
 body{
 margin: 0;
 max-width: 1140px;
- }
+}
 
 /* Navigation */
 
@@ -183,7 +183,7 @@ max-width: 1140px;
   font-size: 30px;
 }
 .news-content p{
-  margin: 45px 0 25px 0;
+  margin: 55px 0 25px 0;
   padding: 15px;
   font-family: $font-content;
   text-align: center;
@@ -257,14 +257,16 @@ footer h2{
 }
 .socials{
   list-style: none;
-  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px 20px 10px;
+  margin: 10px 20px;
 }
 .socials li{
   margin: 10px 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .socials a{
   color: black;
